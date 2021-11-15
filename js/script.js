@@ -1,6 +1,6 @@
-// JSnack 1
+// ****** JSnack 1
 
-// soluzione con for
+// ---- soluzione con for
 // let somma = 0;
 // for(let i = 0; i < 5; i++){
 //     const insNum = parseInt(prompt('Inserisci un numero'));
@@ -9,7 +9,7 @@
 //     console.log(somma)
 // }
 
-// soluzione con while
+// ---- soluzione con while
 // let somma = 0
 
 // let i = 0;
@@ -23,19 +23,29 @@
 
 
 
-// Jsnack2
-const parola1 = prompt('Inserisci parola 1');
-const parola2 = prompt('Inserisci parola 2');
+// ***** Jsnack2
+// const parola1 = prompt('Inserisci parola 1');
+// const parola2 = prompt('Inserisci parola 2');
 
-let lunghezza1 = parola1.length;
-let lunghezza2 = parola2.length;
+// let lunghezza1 = parola1.length;
+// let lunghezza2 = parola2.length;
 
-if(lunghezza1 > lunghezza2){
-    console.log(parola1);
-}else if(lunghezza2 > lunghezza1){
-    console.log(parola2);
-}else{
-    console.log(parola1);
-    console.log(parola2);
+// if(lunghezza1 > lunghezza2){
+//     console.log(parola1);
+// }else if(lunghezza2 > lunghezza1){
+//     console.log(parola2);
+// }else{
+//     console.log(parola1);
+//     console.log(parola2);
+// }
+
+
+// ****** Jsnack3
+let i = 0;
+while(i < 31){
+    i++;
+    const potenza = Math.pow(i, 2);
+    console.log(potenza);
 }
+
 
