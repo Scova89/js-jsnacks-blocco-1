@@ -42,10 +42,18 @@
 
 // ****** Jsnack3
 let i = 0;
-while(i < 31){
+while(i < 1000){
     i++;
-    const potenza = Math.pow(i, 2);
+    let potenza = Math.pow(i, 2);
+
+    let risPotenza = potenza;
+
+    if(risPotenza < 1000){
     console.log(potenza);
-}
+    }
+}   
+
+
+
 
 
